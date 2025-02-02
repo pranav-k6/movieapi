@@ -98,7 +98,7 @@ class _DetailsState extends State<Details> {
               color: Colors.white),),
               SizedBox(height: 20,),
               InkWell(onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>Cast(Casted: widget)));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>Cast(userid:widget.datas.id)));
               },
                 child: Container(
                   height: 30,

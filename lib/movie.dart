@@ -62,6 +62,7 @@ class _MovieState extends State<Movie> {
                             mainAxisSpacing: 5,
                             crossAxisSpacing: 5),
                         itemBuilder: (context, index) {
+                          
                           return Container(
                             height: 120,
                             width: 120,
@@ -118,12 +119,9 @@ class _MovieState extends State<Movie> {
                   ),
                 ],
               );
-
-              
             }else {
               return Text("not found");
             }
-            
           }
         ));
   }
